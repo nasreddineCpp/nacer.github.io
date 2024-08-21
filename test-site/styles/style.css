@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Font1';
+    src: url('C:/Users/Acer/Desktop/web-projects/test-site/fonts/AnonymousPro-Italic.ttf');
+}
+@font-face {
+    font-family: 'Font2';
+    src: url('C:/Users/Acer/Desktop/web-projects/test-site/fonts/Prida61-Groa.otf');
+
+}
+html{
+    font-family: 'Font2', sans-serif;
+    background-color: black;
+}
+body{
+    width: 600px;
+    margin: 0 auto ;
+    background-color: rgb(215, 236, 250);
+    padding: 0px 20px 20px 20px;
+    border: 5px solid red ;
+}
+h1{
+
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: red;
+    text-shadow: 3px 3px 1px rgb(68, 67, 67);
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+button{
+    color: aqua;
+}
+p,
+li{
+font-family: 'Font1', sans-serif;
+font-size: 16px;
+line-height: 1;
+letter-spacing: 1px;
+}
+li{
+    color:red;
+}
